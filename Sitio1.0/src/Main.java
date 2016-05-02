@@ -1,6 +1,8 @@
 
 
 import Model.Usuario;
+import View.SwingLayoutDemo;
+import View.WindowCadastroUsuario;
 
 public class Main {
 
@@ -8,7 +10,7 @@ public class Main {
 		Usuario user = new Usuario();
 		user.setNome("Maiko");
 		System.out.println(user.getNome());
-		
+		new WindowCadastroUsuario("ere", false);
 	}
 	
 }
