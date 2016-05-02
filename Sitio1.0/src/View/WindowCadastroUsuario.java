@@ -11,6 +11,10 @@ import javax.swing.JTextField;
 
 public class WindowCadastroUsuario extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel PanelPrincipal;
 	private JLabel jlNome;
 	private JTextField jtNome;
