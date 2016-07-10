@@ -41,7 +41,7 @@ public class WindowLoading extends JWindow{
 				i++;
 				panel.repaint();
 				if(i == 100){
-					((javax.swing.Timer) ev.getSource() ).stop();
+					((javax.swing.Timer) ev.getSource()).stop();
 					dispose();
 				}
 				
